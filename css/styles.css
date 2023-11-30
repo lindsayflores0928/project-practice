@@ -1,0 +1,70 @@
+:root {
+    --white: #FFFFFF;
+    --ellipse: #FD9222;
+
+}
+
+.subscribe {
+    text-align: center;
+    width: 1200px;
+    height: 370px;
+    top: 4414px;
+    background-image: url('../images/Subcribe.jpg');
+    background-size: cover;
+    /*background-repeat: no-repeat;*/
+    background-position: center;
+}
+
+.blocks {
+    background-color: violet;
+    color: var(--white);
+    /*width: Hug (467px);
+    height: Hug (226px);
+    top: 72px;
+    left: 366px;
+    gap: 24px;
+    padding: 72px, 367px, 72px, 366px;*/
+    width: Hug (467px);
+    height: Hug (226px);
+    padding-top: 50px;
+    padding-bottom: 72px;
+    gap: 24px;
+}
+
+.text1 {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: -0.03em;
+    gap: 28px;
+}
+
+.text2 {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.02em;
+    height: 72px;
+    padding-bottom: 5px;
+}
+
+.blocks-button {
+    width: Hug (172px);
+    height: Hug (50px);
+    padding: 14px, 40px, 14px, 40px;
+    border-radius: 100px;
+    gap: 14px;
+    background-color: var(--ellipse);
+}
+
+.text {
+    width: 120px;
+    height: 30px;
+    font-family: Montserrat;
+    font-weight: 600;
+    line-height: 22px;
+    font-size: 15px;
+    color: var(--white);
+}
