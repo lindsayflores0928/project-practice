@@ -5,18 +5,18 @@
 }
 
 .subscribe {
+    background-image: url('../images/Subcribe.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     text-align: center;
     width: 1200px;
     height: 370px;
     top: 4414px;
-    background-image: url('../images/Subcribe.jpg');
-    background-size: cover;
-    /*background-repeat: no-repeat;*/
-    background-position: center;
 }
 
 .blocks {
-    background-color: violet;
+    /*background-color: violet;*/
     color: var(--white);
     /*width: Hug (467px);
     height: Hug (226px);
@@ -53,18 +53,60 @@
 .blocks-button {
     width: Hug (172px);
     height: Hug (50px);
-    padding: 14px, 40px, 14px, 40px;
+    padding: 14px 40px 14px 40px;
     border-radius: 100px;
     gap: 14px;
     background-color: var(--ellipse);
 }
 
 .text {
-    width: 120px;
-    height: 30px;
+    /*width: 120px;
+    height: 30px;*/
     font-family: Montserrat;
     font-weight: 600;
     line-height: 22px;
     font-size: 15px;
     color: var(--white);
+}
+
+/*modal*/
+
+.blocks-subscribe {
+    width: Hug (458px);
+    height: Hug (136px);
+    top: 236px;
+    left: 40px;
+    gap: 28px;
+}
+
+.blocks-input {
+    border: 2px solid white;
+    background: none;
+    border-radius: 30px;
+    padding: 14px 24px 14px 24px;
+    gap: 40px;
+    Width: Fixed (313px);
+    Height: Fixed (52px);
+}
+
+.blocks-input:placeholder-shown {
+    color: white;
+}
+
+.blocks-subscribe2 {
+    display: flex;
+}
+
+.blocks-input-button {
+    width: Hug (172px);
+    height: Hug (50px);
+    padding: 14px 40px 14px 40px;
+    border-radius: 100px;
+    gap: 14px;
+    background-color: var(--ellipse); 
+    color: var(--white);
+}
+
+.blocks-text span {
+    color: var(--ellipse)
 }
