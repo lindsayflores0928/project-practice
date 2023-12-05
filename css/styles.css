@@ -1,23 +1,18 @@
-:root {
-    --white: #FFFFFF;
-    --ellipse: #FD9222;
-
-}
 
 .subscribe {
     background-image: url('../images/Subcribe.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    text-align: center;
-    width: 1200px;
+    /*text-align: center;*/
+    /width: 1200px;
     height: 370px;
     top: 4414px;
 }
 
 .blocks {
     /*background-color: violet;*/
-    color: var(--white);
+    color: #FFFFFF;
     /*width: Hug (467px);
     height: Hug (226px);
     top: 72px;
@@ -38,6 +33,7 @@
     line-height: 28px;
     letter-spacing: -0.03em;
     gap: 28px;
+    text-align: center;
 }
 
 .text2 {
@@ -48,6 +44,7 @@
     letter-spacing: -0.02em;
     height: 72px;
     padding-bottom: 5px;
+    text-align: center;
 }
 
 .blocks-button {
@@ -56,7 +53,8 @@
     padding: 14px 40px 14px 40px;
     border-radius: 100px;
     gap: 14px;
-    background-color: var(--ellipse);
+    background-color: #FD9222;
+    margin-left: 680px;
 }
 
 .text {
@@ -66,10 +64,47 @@
     font-weight: 600;
     line-height: 22px;
     font-size: 15px;
-    color: var(--white);
+    color: white;
+    
 }
 
 /*modal*/
+
+.blocks-modal {
+    background-color: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal {
+    /*background-color: white;*/
+    width: 538px;
+    height: 196px;
+    border-radius: 15px;
+}
+
+.is-hidden {
+    pointer-events: none;
+    opacity: 0;
+}
+
+.modal-close-button {
+    border-radius: 2px;
+    Width: 14px;
+    Height: 14px;
+    padding-top: 10px;
+    Left: 24px;
+    /*color: white;*/
+    margin-left: auto;
+    display: block;
+}
 
 .blocks-subscribe {
     width: Hug (458px);
@@ -77,6 +112,7 @@
     top: 236px;
     left: 40px;
     gap: 28px;
+    background-color: white;
 }
 
 .blocks-input {
@@ -93,8 +129,19 @@
     color: white;
 }
 
+.placeholder {
+    color: white;
+}
+
 .blocks-subscribe2 {
     display: flex;
+    padding-bottom: 25px;
+}
+
+.blocks-subscribe3 {
+    display: block;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 .blocks-input-button {
@@ -103,10 +150,16 @@
     padding: 14px 40px 14px 40px;
     border-radius: 100px;
     gap: 14px;
-    background-color: var(--ellipse); 
-    color: var(--white);
+    background-color: #FD9222; 
+    color: #FFFFFF;
+    margin-left: 80px;
+
 }
 
 .blocks-text span {
-    color: var(--ellipse)
+    color: #FD9222;
+}
+
+.blocks-text {
+    color: black;
 }
