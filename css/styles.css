@@ -1,4 +1,8 @@
 
+. section {
+    padding: 0;
+}
+
 .subscribe {
     background-image: url('../images/Subcribe.jpg');
     background-size: cover;
