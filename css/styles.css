@@ -174,11 +174,13 @@
 }
 
 .blocks-form-button:hover {
+    width: Hug (172px);
+    height: Hug (50px);
     color: #FD9222;
     display: inline-flex;
-    padding: 16px 32px;
+    padding: 14px 40px 14px 40px;
     align-items: flex-start;
-    gap: 10px;
+    gap: 14px;
     border-radius: 100px;
     background: #FCF1E0;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
