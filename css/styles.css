@@ -100,7 +100,8 @@
     /*margin-left: auto;*/
     display: block;
     position: absolute;
-    margin-left: 445px;
+    margin-left: 500px;
+    margin-top: 15px;
 }
 
 .blocks4 {
@@ -121,7 +122,7 @@
 }
 
 .blocks4-modal {
-    background-color: violet;
+    background-color: rgba(0, 0, 0, 0.1);
 }
 
 .blocks4-set {
@@ -137,6 +138,12 @@
 
 .blocks4-text1 {
     color: black;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: -0.03em;
+    text-align: left;
 }
 
 .blocks-form {
@@ -152,6 +159,12 @@
     gap: 40px;
     Width: 200px;
     height: Hug (50px);
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: -0.02em;
+    text-align: left;
 }
 
 .blocks4-form-input:placeholder-shown {
@@ -171,6 +184,9 @@
     background-color: #FD9222; 
     color: #FFFFFF;
     margin-left: 80px;
+    font-family: Montserrat;
+    font-size: 18px;
+    line-height: 21.94px;
 }
 
 .blocks-form-button:hover {
