@@ -78,13 +78,14 @@
 }
 
 .subscribe-btn2-close {
-    border-radius: 2px;
     width: 20px;
     height: 20px;
+    border-radius: 2px;
     display: block;
     position: absolute;
     margin-left: 500px;
     margin-top: 15px;
+    fill: white;
 }
 
 .blocks4 {
